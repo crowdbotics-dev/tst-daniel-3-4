@@ -43,7 +43,7 @@ jobs:
   ios:
     macos:
       xcode: "14.1.0"
-    resource_class: macos.medium.gen2
+    resource_class: macos.x86.medium.gen2
     working_directory: ~/build
 
     # use a --login shell so our "set Ruby version" command gets picked up for later steps
